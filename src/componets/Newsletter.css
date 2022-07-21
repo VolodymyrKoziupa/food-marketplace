@@ -1,0 +1,53 @@
+.newsl-container{
+    height: 60vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.newsl-title{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+
+.newsl-desc{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.newsl-input-container{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.newsl-input{
+    border: none;
+    flex:8;
+    padding-left: 20px;
+}
+
+.newsl-btn{
+    flex: 1;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+
+@media screen and (max-width: 380px) {
+    .newsl-desc {
+       text-align: center;
+    }
+    .newsl-input-container{
+        width: 80%;
+    }
+  }
